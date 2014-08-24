@@ -14,6 +14,11 @@ Contents:
    introduction
    tutorial
 
+.. automodule:: hello
+
+.. autoclass:: Hello
+   :members:
+
 
 
 Indices and tables
