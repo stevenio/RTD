@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# RTD documentation build configuration file, created by
-# sphinx-quickstart on Sat Aug 23 20:01:09 2014.
+# RTDE documentation build configuration file, created by
+# sphinx-quickstart on Sat Aug 23 23:25:52 2014.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -34,7 +34,6 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
-    'sphinx.ext.pngmath',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
@@ -53,7 +52,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'RTD'
+project = u'RTDE'
 copyright = u'2014, Steven'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -77,7 +76,7 @@ release = '1.0.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -186,7 +185,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'RTDdoc'
+htmlhelp_basename = 'RTDEdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -206,7 +205,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'RTD.tex', u'RTD Documentation',
+  ('index', 'RTDE.tex', u'RTDE Documentation',
    u'Steven', 'manual'),
 ]
 
@@ -236,7 +235,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'rtd', u'RTD Documentation',
+    ('index', 'rtde', u'RTDE Documentation',
      [u'Steven'], 1)
 ]
 
@@ -250,8 +249,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'RTD', u'RTD Documentation',
-   u'Steven', 'RTD', 'One line description of project.',
+  ('index', 'RTDE', u'RTDE Documentation',
+   u'Steven', 'RTDE', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -271,13 +270,13 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'RTD'
+epub_title = u'RTDE'
 epub_author = u'Steven'
 epub_publisher = u'Steven'
 epub_copyright = u'2014, Steven'
 
 # The basename for the epub file. It defaults to the project name.
-#epub_basename = u'RTD'
+#epub_basename = u'RTDE'
 
 # The HTML theme for the epub output. Since the default themes are not optimized
 # for small screen space, using the same theme for HTML and epub output is
